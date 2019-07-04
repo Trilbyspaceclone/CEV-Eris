@@ -907,17 +907,6 @@ var/list/all_supply_groups = list("Operations","Security","Hospitality","Enginee
 	crate name = "Emergency Floodlight Crate"
 	group = "Medical / Science"
 
-/datum/supply_pack/atomic_cells //Ironicly its a atomic Family ^_^
-	name = "Full Set Of Atomic Cells"
-	cost = 7500
-	contains = list(/obj/item/weapon/cell/large/moebius/nuclear,
-				/obj/item/weapon/cell/medium/moebius/nuclear,
-				/obj/item/weapon/cell/small/moebius/nuclear,
-				/obj/item/weapon/cell/small/moebius/pda)
-	containertype = /obj/structure/closet/crate/secure/scisecurecrate
-	crate_name = "Atomic Cells Crate"
-	group = "Medical / Science"
-
 //----------------------------------------------
 //-----------------HYDROPONICS------------------
 //----------------------------------------------
@@ -1393,7 +1382,7 @@ datum/supply_pack/randomised/delux_Cells
 				/obj/item/weapon/cell/small/moebius/super,
 				/obj/item/weapon/cell/small/moebius/hyper)
 	name = "Surplus High-Charge Cells"
-	cost = 3000
+	cost = 8000
 	crate_name = "Surplus Cells"
 	containertype = /obj/structure/closet/crate
 	group = "Engineering"
@@ -1414,7 +1403,7 @@ datum/supply_pack/randomised/cheap_cells
 				/obj/item/weapon/cell/small/moebius,
 				/obj/item/weapon/cell/small/moebius/high)
 	name = "Surplus Low-Charge Cells"
-	cost = 1250
+	cost = 4000
 	crate_name = "Surplus Cells"
 	containertype = /obj/structure/closet/crate
 	group = "Engineering"

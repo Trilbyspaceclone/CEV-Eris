@@ -1687,7 +1687,7 @@
 
 /datum/chemical_reaction/aloe
 	result = "aloe"
-	required_reagents = list("cream" = 1, "whiskey" = 1, "watermelonjuice" = 1)
+	required_reagents = list("irishcream" = 1, "watermelonjuice" = 1)
 	result_amount = 3
 
 /datum/chemical_reaction/andalusia
